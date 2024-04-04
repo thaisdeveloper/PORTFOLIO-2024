@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaisDeveloper</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Icons CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Google Indexação -->
+    <meta name="description" content="Portfolio da ThaisDeveloper">
+    <meta name="keywords" content="desenvolvedora, software, web, portfolio">
+    <meta name="author" content="ThaisDeveloper">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="black">Thais</span><span class="green">Developer</span>
+            </div>
+            <button class="menu-toggle">
+                <i class="material-icons">menu</i> <!-- Ícone do menu -->
+            </button>
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="developer-info">
+            <div class="profile-pic"><img src="IMG_4899.jpeg" alt=""></div>
+            <div class="info">
+
+                <p class="typing-effect">Eu sou desenvolvedora de aplicativos web , sistemas e automação. </p>
+
+            </div>
+        </div>
+        <div id="sobre" class="about-me">
+            <div class="text">
+                <h2>Sobre Mim</h2>
+                <p>Eu crio aplicativos web e sistemas de gerenciamento para diversos segmentos.</p>
+                <p>Sites? Faça seu orçamento com um profissional da área.</p>
+            </div>
+
+        </div>
+        <div id="servicos" class="services">
+            <h2>Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="material-icons">laptop</i>
+                    <h3>Sites</h3>
+                    <p>Sites personalizados e responsivos que combinam funcionalidade e estética ,experiência excepcional ao usuário. </p>
+                </div>
+                <div class="card">
+                    <i class="material-icons">smartphone</i>
+                    <h3>Aplicativos Web</h3>
+                    <p>Desde o planejamento e design até a implementação e lançamento.</p>
+                </div>
+                <div class="card">
+                    <i class="material-icons">settings</i>
+                    <h3>Sistemas</h3>
+                    <p>Desde o controle de estoque até a automação de tarefas complexas, nossos sistemas são projetados para aumentar a produtividade, reduzir custos.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skill-cards">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Bootstrap</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Figma</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>PHP</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>MySQL</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Adicione mais cards para outras habilidades -->
+    </div>
+    </div>
+    <div id="contato" class="contact">
+        <h2>Contato</h2>
+        <form action="mailto:thaisdeveloper@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </div>
+    <footer>
+        <p>Design By Thaís Corguinha</p>
+        <div class="social-icons">
+            <a href="#"><i class="material-icons">youtube</i></a>
+            <a href="#"><i class="material-icons">linkedin</i></a>
+            <a href="#"><i class="material-icons">tiktok</i></a>
+            <a href="#"><i class="material-icons">instagram</i></a>
+        </div>
+    </footer>
+    <!-- JavaScript para controlar o comportamento do menu em dispositivos móveis -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
