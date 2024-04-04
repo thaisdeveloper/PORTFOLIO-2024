@@ -1,20 +1,16 @@
 /* Reset */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
     color: #fff;
 }
-.container {
-    max-width: 1200px;
-  
-    padding: 0 20px;
-}
-
-
-/* Restante do seu CSS aqui... */
-
 
 header {
     background-color: #333;
@@ -72,7 +68,11 @@ nav {
     color: #00ff00;
 }
 
-
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
 
 
 /* Responsividade para a seção de informações do desenvolvedor */
